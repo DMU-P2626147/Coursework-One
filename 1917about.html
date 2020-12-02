@@ -9,19 +9,24 @@ body {
   text-align: center;
   font-family: American Typewriter;
 }
+/* header colour */
 h3 {
   color: #AB8A4A;
 }
+/* padding for main body of text */
 p {
   padding: 20px;
 }
 .main {
 
 }
+/* audio positioning instructions */
 .audio {
   flex-direction: column;
   justify-content: center;
 }
+/* image margin so that we have an even space surrounding */
+/* float left so that the text floats around the image, given the page size */
 .cast {
   float: left;
   margin-left: 2%;
@@ -34,11 +39,13 @@ p {
   display: block;
   clear: both;
 }
+/* gap for a clearer layout */
 .gap {
   padding: 3%;
 }
 </style>
 </head>
+<!-- beginning of the html coding --> 
   <img src="Img/1917logo.jpg" alt="logo" max-width="80%" />
 <!-- Logo to match the home page -->
   <div><a href="1917.html">Home</a></div>
@@ -46,30 +53,36 @@ p {
 <h3>Cast Members:</h3>
 <section>
 <div>
+  <!-- h4 used for the text size -->
   <h4>George MacKay</h4>
 </div>
   <div class="main">
+    <!-- div class so that I could add css to this specific piece of code -->
     <!-- Class name for more specific CSS -->
     <img class="cast" align="left" src="Img/George.jpg" alt+"Cast Member" max-width="80%" />
+    <!-- class so I can add specific css to this element -->
+    <!-- max width is 80% to allow for margin -->
     <p>When George MacKay walked into casting director Nina Gold's office to record his audition for First World War epic 1917, he knew very little about the project. The screenplay was not being released and he was given only a couple of pages for the scenes he would be performing as lance corporal Schofield. Even so, recalls the actor, "I remember thinking, 'I know this man.' Or at least I know an interpretation that I would like to give".
 
     It was only when MacKay met director Sam Mendes for the next stage of the audition process that he learned the special nature of the project: that the film would be presented to the audience in one continuous shot; that individual scenes would run up to eight or nine minutes; and that extensive rehearsals would be needed to refine these ambitious shots, taking his total time commitment on 1917 to seven months. MacKay's reaction: "So exciting - just because it gets so ambitious. It’s a new way of working. Sam explained how rehearsal-heavy it would be and it would be like a play, in a way."
 
     During the extended rehearsal process, Mendes worked intensively with the two young men and department heads to precisely align the words in the screenplay with the movement of the actors and the dimensions of the sets and locations. As MacKay explains: "Usually you craft a film's rhythm in the edit." But that luxury would not be available to 1917 - "and because these guys are always on the move", he continues, "the length of the scene and the rhythm of the scene dictate the length of the set. The corner needs to come on the line that it needs to come, and the line needs to come where the corner is. There is no lead element and they have to be worked out together from scratch".</p></div>
-
+<!-- new div for the audio so as it can sit below the above image and text -->
+<!-- all 3 items are in the same section -->
     <div class="audio"><audio controls>
       <source src="Aud/Interview.mp3" type="audio/mp3" align="center">
       <source src="Aud/Interview.wav" type="audio/wav" align="center"/>
       </audio></div>
     </section>
-
+<!-- another gap for ease of navigation -->
       <div class="gap"></div>
-
+<!-- new section for the next actor -->
 <section>
   <div>
   <h4> Dean-Charles Chapman</h4>
 </div>
   <div class="main">
+  <!-- div class so that I could add css to this specific piece of code -->
     <img class="cast" align="left" src="Img/Dean.jpg" alt+"Cast Member" max-width="80%" />
     <p>"Oh, I could go on and on and on. You know what, I could never have done this film without George. Dead serious. We spent six months rehearsing together and just sort of even watching George act, I've learned a lot. To be in a scene with him, for nine, ten minutes at a time of being lost with him, has honestly been one of the highlights of my career.
 
@@ -82,13 +95,14 @@ p {
       <source src="Aud/Interview.wav" type="audio/wav" align="center"/>
     </audio></div>
       </section>
-
+<!-- gap for ease of use -->
       <div class="gap"></div>
-
 <div>
 <footer>
+  <!-- link to amazon prime where 1917 is available to watch -->
   <p>You can watch 1917 by following the link below.</p> <a href="https://www.amazon.co.uk/dp/B0832MBDH9/ref=dvm_uk_sl_tit_zzz_kYClZ4h14wX9aTMHSy7Zc_c473422032878">Click here.</a>
   <p style=color:#AB8A4A; >P2626147</p>
+  <!-- P number for identification, and matching colour to headers -->
 </footer>
 </div>
 </html>
